@@ -1,7 +1,3 @@
-var ELEMENT_ID = "news";
-var CATEGORY = "News";
-var MAXLENGTH = 5;
-
 // The feed title looks like "CATEGORH • TITLE". We need to get rid of the first part.
 var header_length = (CATEGORY + " • ").length;
 function getTitle(raw_text) {
